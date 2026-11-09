@@ -1,0 +1,15 @@
+test_budget_warning_and_atomic_failures (__main__.IntegrationTests.test_budget_warning_and_atomic_failures) ... ok
+test_crop_letterbox_and_paths_with_spaces (__main__.IntegrationTests.test_crop_letterbox_and_paths_with_spaces) ... ok
+test_gif_and_fractional_fps (__main__.IntegrationTests.test_gif_and_fractional_fps) ... ok
+test_invalid_cli_inputs (__main__.IntegrationTests.test_invalid_cli_inputs) ... ok
+test_sample_and_all_frame_sizes (__main__.IntegrationTests.test_sample_and_all_frame_sizes) ... ok
+test_full_row_and_column (__main__.PackingTests.test_full_row_and_column) ... ok
+test_golden_boundary_pixels (__main__.PackingTests.test_golden_boundary_pixels) ... ok
+test_ordered_midgray_checkerboard (__main__.PackingTests.test_ordered_midgray_checkerboard) ... ok
+test_partial_pipe_reads_and_invalid_size (__main__.PackingTests.test_partial_pipe_reads_and_invalid_size) ... ok
+test_threshold_and_invert (__main__.PackingTests.test_threshold_and_invert) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 2.656s
+
+OK

@@ -1,0 +1,18 @@
+{
+  "frames": 50,
+  "width": 128,
+  "height": 64,
+  "bytes_per_frame": 1024,
+  "video_flash_bytes": 51200,
+  "fps_num": 10,
+  "fps_den": 1,
+  "duration_seconds": 5.0,
+  "flash_budget": 1310720,
+  "firmware_reserve": 327680,
+  "estimated_total_bytes": 378880,
+  "over_budget": false,
+  "fit": "letterbox",
+  "method": "ordered",
+  "invert": false,
+  "packed_sha256": "e60e0292d34bcdba81de452a751a847c3ed39cef4ec61e2fafa9fa4a5d9beaa4"
+}

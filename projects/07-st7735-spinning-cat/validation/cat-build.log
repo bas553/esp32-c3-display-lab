@@ -1,0 +1,221 @@
+Processing esp32-c3 (platform: espressif32@6.10.0; board: esp32-c3-devkitm-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-c3-devkitm-1.html
+PLATFORM: Espressif 32 (6.10.0) > Espressif ESP32-C3-DevKitM-1
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 37 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit GFX Library @ 1.11.11
+|-- Adafruit ST7735 and ST7789 Library @ 1.11.0
+|-- SPI @ 2.0.0
+Building in release mode
+Compiling .pio\build\esp32-c3\src\main.cpp.o
+Building .pio\build\esp32-c3\bootloader.bin
+Generating partitions .pio\build\esp32-c3\partitions.bin
+esptool.py v4.5.1
+Creating esp32c3 image...
+Merged 1 ELF section
+Successfully created esp32c3 image.
+Compiling .pio\build\esp32-c3\lib272\Wire\Wire.cpp.o
+Compiling .pio\build\esp32-c3\lib430\SPI\SPI.cpp.o
+Compiling .pio\build\esp32-c3\liba63\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\esp32-c3\liba63\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\esp32-c3\liba63\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\esp32-c3\liba63\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\esp32-c3\libb77\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\esp32-c3\libb77\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\esp32-c3\libb77\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\esp32-c3\libb77\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\esp32-c3\lib3ed\Adafruit ST7735 and ST7789 Library\Adafruit_ST7735.cpp.o
+Compiling .pio\build\esp32-c3\lib3ed\Adafruit ST7735 and ST7789 Library\Adafruit_ST7789.cpp.o
+Compiling .pio\build\esp32-c3\lib3ed\Adafruit ST7735 and ST7789 Library\Adafruit_ST7796S.cpp.o
+Archiving .pio\build\esp32-c3\lib272\libWire.a
+Compiling .pio\build\esp32-c3\lib3ed\Adafruit ST7735 and ST7789 Library\Adafruit_ST77xx.cpp.o
+Archiving .pio\build\esp32-c3\lib430\libSPI.a
+Compiling .pio\build\esp32-c3\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\HWCDC.cpp.o
+Archiving .pio\build\esp32-c3\liba63\libAdafruit BusIO.a
+Compiling .pio\build\esp32-c3\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\Stream.cpp.o
+Archiving .pio\build\esp32-c3\libb77\libAdafruit GFX Library.a
+Compiling .pio\build\esp32-c3\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\USB.cpp.o
+Archiving .pio\build\esp32-c3\lib3ed\libAdafruit ST7735 and ST7789 Library.a
+Compiling .pio\build\esp32-c3\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\main.cpp.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\esp32-c3\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\esp32-c3\libFrameworkArduino.a
+Linking .pio\build\esp32-c3\firmware.elf
+Retrieving maximum program size .pio\build\esp32-c3\firmware.elf
+Checking size .pio\build\esp32-c3\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   4.4% (used 14508 bytes from 327680 bytes)
+Flash: [========  ]  79.6% (used 1043182 bytes from 1310720 bytes)
+Building .pio\build\esp32-c3\firmware.bin with action:
+  "$PYTHONEXE" "$OBJCOPY" --chip esp32c3 elf2image --flash_mode ${__get_board_flash_mode(__env__)} --flash_freq ${__get_board_f_image(__env__)} --flash_size 4MB --elf-sha256-offset 0xb0 -o $TARGET $SOURCES
+Building .pio\build\esp32-c3\firmware.bin
+esptool.py v4.5.1
+Creating esp32c3 image...
+Merged 2 ELF sections
+Successfully created esp32c3 image.
+========================= [SUCCESS] Took 19.28 seconds =========================
+
+Processing esp32-c3-usb (platform: espressif32@6.10.0; board: esp32-c3-devkitm-1; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32-c3-devkitm-1.html
+PLATFORM: Espressif 32 (6.10.0) > Espressif ESP32-C3-DevKitM-1
+HARDWARE: ESP32C3 160MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-builtin, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - toolchain-riscv32-esp @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 37 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Adafruit GFX Library @ 1.11.11
+|-- Adafruit ST7735 and ST7789 Library @ 1.11.0
+|-- SPI @ 2.0.0
+Building in release mode
+Compiling .pio\build\esp32-c3-usb\src\main.cpp.o
+Building .pio\build\esp32-c3-usb\bootloader.bin
+Generating partitions .pio\build\esp32-c3-usb\partitions.bin
+esptool.py v4.5.1
+Creating esp32c3 image...
+Merged 1 ELF section
+Successfully created esp32c3 image.
+Compiling .pio\build\esp32-c3-usb\lib272\Wire\Wire.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib430\SPI\SPI.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib403\Adafruit BusIO\Adafruit_BusIO_Register.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib403\Adafruit BusIO\Adafruit_GenericDevice.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib403\Adafruit BusIO\Adafruit_I2CDevice.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib403\Adafruit BusIO\Adafruit_SPIDevice.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib04f\Adafruit GFX Library\Adafruit_GFX.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib04f\Adafruit GFX Library\Adafruit_GrayOLED.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib04f\Adafruit GFX Library\Adafruit_SPITFT.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib04f\Adafruit GFX Library\glcdfont.c.o
+Compiling .pio\build\esp32-c3-usb\lib44a\Adafruit ST7735 and ST7789 Library\Adafruit_ST7735.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib44a\Adafruit ST7735 and ST7789 Library\Adafruit_ST7789.cpp.o
+Compiling .pio\build\esp32-c3-usb\lib44a\Adafruit ST7735 and ST7789 Library\Adafruit_ST7796S.cpp.o
+Archiving .pio\build\esp32-c3-usb\lib272\libWire.a
+Compiling .pio\build\esp32-c3-usb\lib44a\Adafruit ST7735 and ST7789 Library\Adafruit_ST77xx.cpp.o
+Archiving .pio\build\esp32-c3-usb\lib430\libSPI.a
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\Esp.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\HWCDC.cpp.o
+Archiving .pio\build\esp32-c3-usb\lib403\libAdafruit BusIO.a
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\Print.cpp.o
+Archiving .pio\build\esp32-c3-usb\lib04f\libAdafruit GFX Library.a
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\StreamString.cpp.o
+Archiving .pio\build\esp32-c3-usb\lib44a\libAdafruit ST7735 and ST7789 Library.a
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\main.cpp.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\esp32-c3-usb\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\esp32-c3-usb\libFrameworkArduino.a
+Linking .pio\build\esp32-c3-usb\firmware.elf
+Retrieving maximum program size .pio\build\esp32-c3-usb\firmware.elf
+Checking size .pio\build\esp32-c3-usb\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [          ]   4.4% (used 14420 bytes from 327680 bytes)
+Flash: [========  ]  78.5% (used 1028782 bytes from 1310720 bytes)
+Building .pio\build\esp32-c3-usb\firmware.bin with action:
+  "$PYTHONEXE" "$OBJCOPY" --chip esp32c3 elf2image --flash_mode ${__get_board_flash_mode(__env__)} --flash_freq ${__get_board_f_image(__env__)} --flash_size 4MB --elf-sha256-offset 0xb0 -o $TARGET $SOURCES
+Building .pio\build\esp32-c3-usb\firmware.bin
+esptool.py v4.5.1
+Creating esp32c3 image...
+Merged 2 ELF sections
+Successfully created esp32c3 image.
+========================= [SUCCESS] Took 19.09 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+esp32-c3       SUCCESS   00:00:19.284
+esp32-c3-usb   SUCCESS   00:00:19.093
+========================= 2 succeeded in 00:00:38.377 =========================

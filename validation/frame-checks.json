@@ -1,0 +1,20 @@
+[
+  {
+    "project": "04-oled-video",
+    "frames": 50,
+    "bytes_per_frame": 1024,
+    "sha256": "e60e0292d34bcdba81de452a751a847c3ed39cef4ec61e2fafa9fa4a5d9beaa4"
+  },
+  {
+    "project": "05-st7735-video",
+    "frames": 30,
+    "bytes_per_frame": 25600,
+    "sha256": "154d483b6b4908e689b9e299c7a3ed4afd89a8b9fb872d0af1e627ed3c9ac830"
+  },
+  {
+    "project": "07-st7735-spinning-cat",
+    "frames": 30,
+    "bytes_per_frame": 25600,
+    "sha256": "9da5859186170e3a43da0a7344a106f0024b4eff97b0d1ee5102319ba5787f62"
+  }
+]

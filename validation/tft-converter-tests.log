@@ -1,0 +1,13 @@
+test_crop_letterbox (__main__.IntegrationTests.test_crop_letterbox) ... ok
+test_flash_and_failure_preserve_output (__main__.IntegrationTests.test_flash_and_failure_preserve_output) ... ok
+test_gif_fractional_fps (__main__.IntegrationTests.test_gif_fractional_fps) ... ok
+test_sample_every_frame (__main__.IntegrationTests.test_sample_every_frame) ... ok
+test_invert_swap_and_bad_size (__main__.PackingTests.test_invert_swap_and_bad_size) ... ok
+test_partial_pipe (__main__.PackingTests.test_partial_pipe) ... ok
+test_pixel_row_boundaries (__main__.PackingTests.test_pixel_row_boundaries) ... ok
+test_rgb565_golden_colors (__main__.PackingTests.test_rgb565_golden_colors) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 4.164s
+
+OK

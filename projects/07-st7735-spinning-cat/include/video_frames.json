@@ -1,0 +1,19 @@
+{
+  "frames": 30,
+  "width": 160,
+  "height": 80,
+  "bytes_per_frame": 25600,
+  "video_flash_bytes": 768000,
+  "fps_num": 10,
+  "fps_den": 1,
+  "duration_seconds": 3.0,
+  "flash_budget": 1310720,
+  "firmware_reserve": 327680,
+  "estimated_total_bytes": 1095680,
+  "over_budget": false,
+  "fit": "crop",
+  "format": "RGB565",
+  "swap_rb": false,
+  "invert": false,
+  "packed_sha256": "9da5859186170e3a43da0a7344a106f0024b4eff97b0d1ee5102319ba5787f62"
+}
